@@ -1,0 +1,25 @@
+header {
+  max-width: 600px;
+  margin: 0 auto;
+  font-family: 'Bebas Neue', 'Courier New', 'Courier', 'monospace';
+  letter-spacing: 2px;
+}
+
+.title {
+  padding: 5px;
+  text-align: center;
+  font-weight: 800;
+  font-size: xx-large;
+}
+
+.links {
+  display: flex;
+  justify-content: space-around;
+  padding: 5px;
+}
+
+.links a {
+  background-color: var(--purple);
+  width: 30%;
+  text-align: center;
+}
