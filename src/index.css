@@ -4,25 +4,18 @@
   --purple: #570CF2;
   --white: #eeffec;
   --green: #279235;
-  --dark1: #181818;
-  --dark2: #222222;
-}
-
-
-a {
-  color: var(--white);
-  text-decoration: none;
+  --dark: #181818;
+  --dark2: #2C2E2D;
+  --background: #D1D1B6;
 }
 
 *,
 *:before,
 *:after {
   box-sizing: border-box;
+  color: white;
 }
 
-
 body {
-  background-color: var(--dark1);
-  color: var(--white);
-  padding: 12px;
-} 
+  background-color: var(--dark2);
+}

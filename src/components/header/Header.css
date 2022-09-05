@@ -1,8 +1,10 @@
 header {
   max-width: 600px;
   margin: 0 auto;
+  background-color: var(--dark);
   font-family: 'Bebas Neue', 'Courier New', 'Courier', 'monospace';
   letter-spacing: 2px;
+  border-radius: 15px;
 }
 
 .title {
@@ -12,13 +14,13 @@ header {
   font-size: xx-large;
 }
 
-.links {
+.header-links {
   display: flex;
   justify-content: space-around;
   padding: 5px;
 }
 
-.links a {
+.header-links a {
   background-color: var(--purple);
   width: 30%;
   text-align: center;

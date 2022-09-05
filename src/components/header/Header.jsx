@@ -7,8 +7,8 @@ export default class Header extends Component {
     return (
       <header className="header">
         <h1 className="title">Meu Portifólio</h1>
-        <div className="links">
-          <Link className="btn btn-primary" to="/about">Sobre</Link>
+        <div className="header-links">
+          <Link className="btn btn-primary" to="/about">Sobre Mim</Link>
           <Link className="btn btn-primary" to="/projects">Projetos</Link>
           <Link className="btn btn-primary" to= "/contacts">Contatos</Link>
         </div>

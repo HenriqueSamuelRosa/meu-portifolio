@@ -1,0 +1,44 @@
+main {
+  background-color: var(--dark);
+  margin: 0 auto;
+  max-width: 600px;
+  padding: 15px;
+  margin-top: 10px;
+  border-radius: 15px;
+}
+
+.profile {
+  margin: 0 auto;
+  text-align: center;
+  font-family: 'Bebas Neue', 'Courier New', 'Courier', 'monospace';
+  letter-spacing: 2px;
+}
+
+.profile img {
+  width: 75%;
+  border-radius: 50%;
+  padding: 25px;
+}
+
+.links {
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.link {
+  width: 250px;
+  padding: 15px;
+  margin: 5px;
+  background-color: var(--dark2);
+  border-radius: 10px;
+}
+
+
+svg {
+  font-size: 50px;
+  margin-right: 8px;
+  color: var(--white);
+}
+
