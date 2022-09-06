@@ -5,7 +5,7 @@ import {
 } from 'react-icons/ai';
 import './Home.css'
 
-export const Home = () => {
+function Home() {
   return (
     <main>
      <div className="profile">
@@ -38,6 +38,5 @@ export const Home = () => {
     </main>
   )
 }
-
 
 export default Home;
