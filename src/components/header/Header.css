@@ -1,3 +1,5 @@
+
+
 header {
   max-width: 600px;
   margin: 0 auto;
@@ -29,4 +31,23 @@ header {
   width: 30%;
   text-align: center;
   font-weight: 700;
+}
+
+@media screen and (min-width: 600px) and (orientation: portrait) {
+  header {
+   margin: 0 auto;
+   max-width: 90%;
+   border-radius: 30px;
+  }
+
+  .header-links a {
+    font-size: xx-large;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--purple);
+    width: 30%;
+    text-align: center;
+    font-weight: 700;
+  }
 }

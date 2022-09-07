@@ -1,0 +1,9 @@
+.contacts {
+  background-color: var(--dark);
+  display: flex;
+  justify-content: center;
+}
+
+.contacts img {
+  width: 800px;
+}

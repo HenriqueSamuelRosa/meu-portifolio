@@ -1,0 +1,9 @@
+.about-me {
+  background-color: var(--dark);
+  display: flex;
+  justify-content: center;
+}
+
+.about-me img {
+  width: 800px;
+}
